@@ -39,7 +39,7 @@ local colors = {
   TermCursor = { fg = "#FFFFFF" },
   Type = { fg = "#8E95F0" },
   Typedef = { fg = "#8E95F0" },
-  Visual = { fg = "#22740B", bg = "#9B88E2" },
+  Visual = { fg = "#8EECFA", bg = "#967BB6" },
   ["@function"] = { fg = "#F5B2F0" },
   ["@keyword"] = { fg = "#8E6EA6" },
   ["@parameter"] = { fg = "#E0CFED" },
