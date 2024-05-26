@@ -13,6 +13,8 @@ map("n", "<C-u>", "<C-u>zz", opts) -- half page down while centering cursor
 map("n", "<C-o>", "<C-o>zz", opts) -- go back while centering cursor
 map("n", "<C-i>", "<C-i>zz", opts) -- go forward while centering cursor
 
+map("n", "gd", "gdzz", opts) -- go to definition while centering cursor
+
 map("n", "L", "$", opts) -- end of line
 map("n", "H", "^", opts) -- start of line
 

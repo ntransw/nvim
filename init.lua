@@ -1,7 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-require("config.lillilac")
+require("config.colorslilac")
 
-local nvim_lsp = require("lspconfig")
-nvim_lsp.gopls.setup({})
-nvim_lsp.rust_analyzer.setup({})
+local lsp = require("lspconfig")
+lsp.gopls.setup({})
+lsp.rust_analyzer.setup({})
