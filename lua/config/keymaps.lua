@@ -19,3 +19,4 @@ map("n", "L", "$", opts) -- end of line
 map("n", "H", "^", opts) -- start of line
 
 map("n", "<BS>", ":bp<CR>", opts) -- previous buffer
+map("n", "<CR>", ":bn<CR>", opts) -- previous buffer
