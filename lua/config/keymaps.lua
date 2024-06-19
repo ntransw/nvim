@@ -20,3 +20,5 @@ map("n", "H", "^", opts) -- start of line
 
 map("n", "<BS>", ":bp<CR>", opts) -- previous buffer
 map("n", "<CR>", ":bn<CR>", opts) -- previous buffer
+
+map("n", ":bd", ":bp|bd#<CR>", opts) -- close buffer without deleting split windows
