@@ -20,3 +20,6 @@ map("n", "H", "^", opts) -- start of line
 
 map("n", "<BS>", ":bp<CR>", opts) -- previous buffer
 map("n", "<CR>", ":bn<CR>", opts) -- previous buffer
+
+local telescope = require("telescope.builtin")
+map("n", "<leader><leader>", telescope.find_files)
