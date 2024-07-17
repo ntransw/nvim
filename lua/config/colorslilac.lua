@@ -6,7 +6,7 @@ local colors = {
   Normal = { fg = "#C4C5E9", bg = "None" },
   Boolean = { fg = "#765673" },
   Character = { fg = "#C4C5E9" },
-  Comment = { fg = "#624E6E", italic = true },
+  Comment = { fg = "#E0FFFF", italic = true },
   Conditional = { fg = "#B440D4" },
   Constant = { fg = "#B657FF" },
   CursorLine = { bg = "#18193F" },
@@ -46,7 +46,7 @@ local colors = {
   ["@storageclass"] = { fg = "#B657FF" },
   ["@tag"] = { fg = "#A39EFA" },
   ["@type.definition"] = { fg = "#A39EFA" },
-  ["@variable"] = { fg = "#FDFDF7" },
+  ["@variable"] = { fg = "#FCFC80" },
   -- PATCH_CLOSE
   -- content here will not be touched
 }

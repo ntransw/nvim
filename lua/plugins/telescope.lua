@@ -3,7 +3,8 @@ return {
   config = function()
     require("telescope").setup({
       defaults = {
-          preview = false,
+        cwd = vim.fn.getcwd(),
+        preview = false,
       },
     })
   end,
