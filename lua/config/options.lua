@@ -8,3 +8,5 @@ local options = {
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
+
+vim.lsp.set_log_level("off")

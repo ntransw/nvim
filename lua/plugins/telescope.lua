@@ -4,7 +4,7 @@ return {
     require("telescope").setup({
       defaults = {
         cwd = vim.fn.getcwd(),
-        preview = true,
+        preview = false,
       },
     })
   end,
